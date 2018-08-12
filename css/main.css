@@ -1,0 +1,42 @@
+a {
+  text-decoration: none; }
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/peaceLoveCode.jpg");
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff; }
+  .header__hello {
+    background-image: linear-gradient(to right, green, #ffffff);
+    font-size: 7rem;
+    margin-left: 25px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .header__title {
+    font-size: 8rem;
+    margin-left: 25px; }
+  .header__title--first-letter {
+    background-image: linear-gradient(to bottom right, orangered, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; }
+  .header__blurb {
+    font-size: 2rem;
+    margin-left: 2.5rem; }
+  .header__blurb--developer {
+    background-image: linear-gradient(to top right, white, rgba(0, 128, 0, 0.9));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .header__social_icons {
+    margin-left: 2.5rem; }
+    .header__social_icons_icon {
+      color: #ffffff;
+      padding-right: 2.5rem;
+      padding-top: 2.5rem; }
+
+.navbar {
+  background-color: black !important; }
