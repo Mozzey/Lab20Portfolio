@@ -1,0 +1,12 @@
+.parallaxSpace {
+  background-image: url('../images/aboutPara.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20rem;
+  width: 100%;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to right, rgba(#000, 0.9), rgba(#000, 0.3)),
+    url('../images/projectHeader.jpeg');
+}
